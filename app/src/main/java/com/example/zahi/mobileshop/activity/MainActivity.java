@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = manager.beginTransaction();
         fragmentTransaction.add(R.id.main_frame,naviationFragment).commit();
 
+
     }
 }
